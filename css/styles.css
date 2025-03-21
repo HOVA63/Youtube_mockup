@@ -9,12 +9,15 @@ button {
 
 header {
     height: 56px;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px 16px;
     margin: 0%;
+    position: sticky;
+    top: 0%;
 }
 
 header .start {
@@ -88,4 +91,19 @@ header img {
 
 .page_guider nav {
     width: 240px;
+}
+
+main {
+    width: 1345px;
+}
+
+.section-bar {
+    position: sticky;
+    top: 5%;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
