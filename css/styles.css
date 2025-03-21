@@ -2,6 +2,11 @@ body {
     margin: 0%;
 }
 
+button {
+    background-color: white;
+    border: none;
+}
+
 header {
     height: 56px;
     display: flex;
@@ -48,8 +53,6 @@ header .end .create .create_text {
 header button {
     height: 40px;
     width: 40px;
-    background-color: white;
-    border: none;
 }
 
 header button div {
@@ -76,4 +79,13 @@ header img {
     height: 24px;
     width: 24px;
     border-radius: 50%;
+}
+
+.page_guider {
+    display: flex;
+    flex-direction: row;
+}
+
+.page_guider nav {
+    width: 240px;
 }
