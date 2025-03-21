@@ -7,6 +7,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 0px 16px;
     margin: 0%;
 }
@@ -21,6 +22,9 @@ header .start {
 header .center {
     height: 40px;
     width: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header .end {
@@ -61,4 +65,15 @@ header .logo {
 header img {
     height: 32px;
     width: 32px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-section img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
 }
